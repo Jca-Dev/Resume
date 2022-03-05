@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap');
+
+* {
+    margin: 0;
+    border: none;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    margin: 0px 30px 0px 30px
+}
+
+#cover {
+    background: blue;
+}
+
+#cover_image {
+    background: blue;
+    border: solid 2px black;
+    height: 100px;
+    width: 100px;
+    float: right;
+}
+
+/* profile left side */
+#profile {
+    background: red;
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+#name {
+    background: yellow;
+    position: relative;
+    float: left;
+    margin: 108px 0px 0px -99px;
+}
+#p_list {
+    list-style-type: none;
+    background: yellow;
+    border: solid 2px black;
+    position: relative;
+    height: 300px;
+    width: 25%;
+    margin-top: 150px;
+}
+
+.p_list {
+    padding: 2px 2px 2px 10px
+}
+
+/* Navigation */
+#nav_bar {
+    background: green;
+}
+
+.nav
+
+
+/* footer */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #333;
+}
+  
+.social_networks {
+    text-align: center;
+    padding: 6px;
+    background-size: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+    
+.social_networks > li {
+    display: inline; 
+    }
+
+.social_networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #ffffff;
+    }
