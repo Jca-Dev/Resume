@@ -12,25 +12,51 @@
     <title>John Arscott</title>
 </head>
 <body>
+    
     <header id="cover">
-        <img id="cover_image">background image
-        <img id="profile"> <!-- Photo of me Left Of Header -->
+        <!-- cover photo -->
+        <img id="cover_image">
+
+        <!-- Photo of me Left Of Header -->
+        <img id="profile">
     </header>
+
     <h1 id="name">John Arscott</h1>
+    <!-- Contact info list -->
     <ul id="p_list">
         <li class="p_list">Email</li>
         <li class="p_list">Address</li>
         <li class="p_list">Linkedin</li>
     </ul>
 
-    <nav id="nav_bar">
-        <a class="nav">skills</a>
-        <a class="nav">Qualifications</a>
-        <a class="nav">Employment History</a>
-        <a class="nav">Portfolio</a>
-    </nav>
+   <!-- Tab links -->
+<div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'Skills')">Skills</button>
+    <button class="tablinks" onclick="openCity(event, 'Qualifications')">Qualifications</button>
+    <button class="tablinks" onclick="openCity(event, 'Employment')">Employment</button>
+    <button class="tablinks" onclick="openCity(event, 'Links')">Links</button>
+  </div>
+  
+  <!-- Tab content -->
+  <div id="Skills" class="tabcontent">
+    <h3>Skills</h3>
+    <p>Skills list.</p>
+  </div>
+  
+  <div id="Qualifications" class="tabcontent">
+    <h3>Qualifications</h3>
+    <p>Qualifications list.</p>
+  </div>
+  
+  <div id="Employment" class="tabcontent">
+    <h3>Employment History</h3>
+    <p>Employment History.</p>
+  </div>
 
-
+  <div id="Links" class="tabcontent">
+    <h3>Links</h3>
+    <p>Links to portfolio.</p>
+  </div>
 
     <footer>
         <ul class="social_networks">
