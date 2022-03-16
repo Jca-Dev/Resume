@@ -41,6 +41,12 @@ span {
     font-size: 20px;
 }
 
+.cert {
+    height: 210px;
+    width: 315px;
+    padding-inline: 20px;
+}
+
 /* arrows */
 #arrow_one {
     position: absolute;
