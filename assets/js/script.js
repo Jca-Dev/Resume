@@ -18,3 +18,4 @@ function openCity(evt, cityName) {
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
   }
+  document.getElementById("greeting").onload = alert("Hello There! \nWelcome to my Resume. \nPlease take a look around.");
