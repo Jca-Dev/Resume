@@ -18,4 +18,10 @@ function openCity(evt, cityName) {
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
   }
-  document.getElementById("greeting").onload = alert("Hello There! \nWelcome to my Resume. \nPlease take a look around.");
+  // Variation {document.getElementById("greeting").onload = alert("Hello There! \nWelcome to my Resume. \nPlease take a look around.");
+  setTimeout(greeting, 500);
+  
+  function greeting() {
+
+    alert("Hello There! \nWelcome to my Resume. \nPlease take a look around.");
+  }
