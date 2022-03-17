@@ -28,6 +28,20 @@ span {
     font-weight: bold;
 }
 
+.bpoint {
+    margin: 0 0 0 -17px;
+}
+
+.skll_a {
+    float: left;
+    margin: 0 20% 0px 30%;
+    padding-bottom: 60px;
+}
+
+.skll_b {
+    padding-bottom: 50px;
+}
+
 #linkedin {
     font-weight: bolder;
     color: black;
@@ -38,6 +52,19 @@ span {
 }
 
 #linkedin:hover {
+    font-size: 20px;
+}
+
+.port_link {
+    font-weight: bolder;
+    color: white;
+    border: solid black 1px;
+    background-color: black;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.port_link:hover {
     font-size: 20px;
 }
 
