@@ -18,6 +18,7 @@ h2 {
     text-align: center;
     padding-bottom: 45px;
     font-size: 50px;
+    margin: -25px 52px 0 75px;
 }
 
 h3 {
@@ -34,12 +35,36 @@ span {
 
 .skll_a {
     float: left;
-    margin: 0 20% 0px 30%;
-    padding-bottom: 60px;
+    margin: -50px 16% 0px 14%;
+    padding: 18px 70px 40px 80px;
+    border-radius: 50%;
+    border: solid 4px black;
+    box-shadow: 5px 10px 10px grey;
+    position: absolute;
+    left: -25px;
+    background-color: #000;
+    color: white;
 }
 
 .skll_b {
-    padding-bottom: 50px;
+    float: right;
+    margin: -50px 16% 0px 14%;
+    padding: 18px 70px 40px 80px;
+    border-radius: 50%;
+    border: solid 4px black;
+    box-shadow: 5px 10px 10px grey;
+    position: absolute;
+    left: 500px;
+    background-color: #000;
+    color: white;
+}
+
+#space {
+    padding: 200px;
+}
+
+#space_p {
+    padding: 200px;
 }
 
 #linkedin {
@@ -58,14 +83,52 @@ span {
 .port_link {
     font-weight: bolder;
     color: white;
-    border: solid black 1px;
+    border: solid white 2px;
     background-color: black;
     text-decoration: none;
     letter-spacing: 1px;
+    border-radius: 50%;
 }
 
 .port_link:hover {
-    font-size: 20px;
+    color: white;
+    background-image: radial-gradient(circle, rgb(2, 2, 2)20%, rgb(255, 255, 255));
+}
+
+#pla {
+    position: absolute;
+    top: 145px;
+    left: 15%;
+    padding: 25px;
+    padding-inline: 30%;
+    
+}
+
+#plb {
+    position: absolute;
+    top: 315px;
+    left: 15%;
+    padding: 25px;
+    padding-inline: 21%;
+
+}
+
+#plc {
+    position: absolute;
+    top: 400px;
+    left: 15%;
+    padding: 25px;
+    padding-inline: 29%;
+
+}
+
+#pld {
+    position: absolute;
+    top: 230px;
+    left: 15%;
+    padding: 25px;
+    padding-inline: 20%;
+
 }
 
 .cert {
@@ -197,9 +260,9 @@ span {
 /* Style the tab content */
 .tabcontent {
     display: none;
-    width: 74.7%;
+    width: 74.6%;
     height: fit-content;
-    padding: 51px 40px;
+    padding: 87px 0 275px 80px;
     background-color: white;
     position: relative;
     top: 273px;
