@@ -18,7 +18,11 @@ h2 {
     text-align: center;
     padding-bottom: 45px;
     font-size: 50px;
-    margin: -25px 52px 0 75px;
+    margin: -25px 90px 0 75px;
+}
+
+#skill_h {
+    margin: 0px 135px 0px 0px;
 }
 
 h3 {
@@ -60,7 +64,7 @@ span {
 }
 
 #space {
-    padding: 200px;
+    padding: 100px;
 }
 
 #space_p {
