@@ -333,3 +333,83 @@ footer {
         transform: scale(1);
     }
 }
+
+/* Responsive Design */
+
+@media screen and (max-width: 1200px) {
+    * {
+        height: fit-content;
+        display: block;
+        position: static;
+
+    }
+
+    body{
+        width: 100%;
+    }
+
+    #cover_image {
+        display: none;
+
+    }
+
+    a#linkedin {
+        width: fit-content;
+    }
+
+    #p_list {
+        width: 80%;
+        margin-bottom: -30px;
+        left: 8em;
+        top: 10em;
+    }
+
+    #profile {
+        left: 9em;
+        top: 0px;
+        box-shadow: 0px 9px 5px 5px #ffffff2b;
+
+    }
+
+    #name {
+        left: 4em;
+
+    }
+
+    #arrow_one, #arrow_two, #arrow_three, #arrow_four {
+        display: none;
+    }
+
+    footer {
+        position: fixed;
+        width: 55%;
+        padding: 15px;
+    }
+
+    .tab {
+        width: 100%;
+        top: 41em;
+        left: 2em;
+        background-image: none;
+        border: none;
+        text-align: -webkit-center;
+
+    }
+
+    .tab button {
+        text-align: center;
+        margin: 20px 0 20px 0;
+        border: solid;
+        background-color: white;
+        padding: 10px 70px 10px 70px
+
+    }
+
+    .tabcontent {
+        width: 120%;
+        left: -30px;
+        top: 45em;
+
+    }
+
+}
