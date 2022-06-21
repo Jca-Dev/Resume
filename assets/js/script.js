@@ -17,11 +17,28 @@ function openCity(evt, cityName) {
     // Show the current tab, and add an "active" class to the button that opened the tab
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
-  }
-  // Variation {document.getElementById("greeting").onload = alert("Hello There! \nWelcome to my Resume. \nPlease take a look around.");
-  setTimeout(greeting, 500);
-  
-  function greeting() {
+}
 
-    alert("Hello There! \nWelcome to my Resume. \nPlease take a look around.");
+// Modal Message--------------------------------------------------------------------------------------
+
+// Get the modal and content
+var modal = document.getElementById("myModal");
+var span = document.getElementsByClassName("close")[0];
+
+// Show the modal
+function showModal() {
+  modal.style.display = "block";
+  document.getElementById("modal-t").innerText = "Hello There! \n\nWelcome to my Resume. \nPlease take a look around. \n\nPlease note: \n** I currently live and work in Canada. ** \n\nThis site is not currently responsive for moblies due to study and work commitments.";
+}
+
+// Hide the modal
+span.onclick = function () {
+  modal.style.display = "none";
+};
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
   }
+};
+
+window.addEventListener('DOMContentLoaded', showModal);
