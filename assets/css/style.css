@@ -104,36 +104,18 @@ span {
 
 }
 
-#plb {
-    position: absolute;
-    top: 315px;
-    left: 15%;
-    padding: 25px;
-    padding-inline: 21%;
-
-}
-
 #plc {
     position: absolute;
-    top: 410px;
+    top: 250px;
     left: 8%;
     padding: 25px;
     padding-inline: 29%;
 
 }
 
-#pld {
-    position: absolute;
-    top: 230px;
-    left: 15%;
-    padding: 25px;
-    padding-inline: 20%;
-
-}
-
 #ple {
     position: absolute;
-    top: 32em;
+    top: 22em;
     left: 23%;
     padding: 25px;
     padding-inline: 20%;
@@ -142,7 +124,7 @@ span {
 
 #plf {
     position: absolute;
-    top: 38.5em;
+    top: 28.5em;
     left: 20.5%;
     padding: 25px;
     padding-inline: 20%;
